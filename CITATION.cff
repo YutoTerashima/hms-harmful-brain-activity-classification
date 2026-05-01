@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this solution archive, please cite the repository and the Kaggle competition."
+title: "HMS Harmful Brain Activity Classification: Silver Medal Solution Archive"
+authors:
+  - family-names: "Terashima"
+    given-names: "Yuto"
+repository-code: "https://github.com/YutoTerashima/hms-harmful-brain-activity-classification"
+url: "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification"
+date-released: "2026-05-02"
+license: "MIT"
+keywords:
+  - Kaggle
+  - EEG
+  - spectrogram
+  - harmful brain activity
+  - deep learning
+  - ensemble
+

@@ -1,0 +1,14 @@
+{
+  "model_name": "efficientnet_b0",
+  "family": "spectrogram",
+  "device": "cuda",
+  "cuda_available": true,
+  "steps": 2,
+  "final_loss": 0.2130531370639801,
+  "losses": [
+    0.21543565392494202,
+    0.2130531370639801
+  ],
+  "parameter_count": 23910,
+  "elapsed_seconds": 0.4333
+}

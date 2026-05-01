@@ -1,0 +1,6 @@
+component,input_modality,model_family,archive_notebooks,role,relative_archive_note
+model1,official_and_generated_spectrograms,efficientnet_b0,"eeg_gen_spec.ipynb; train_eff0_stage1.ipynb; train_eff0_stage2.ipynb; infer.ipynb",primary_spectrogram_model,strongest_individual_model_in_archive_readme
+model2,raw_eeg_waveforms,resnet1d_gru,"hms-resnet1d-gru-train.ipynb; hms-resnet1d-gru-infer.ipynb",temporal_waveform_model,second_individual_model_in_archive_readme
+model3,official_spectrograms,efficientnet_b0,"hms-eff1-train-stage1.ipynb; hms-eff1-train-stage2.ipynb; hms-infer.ipynb",auxiliary_spectrogram_model,third_individual_model_in_archive_readme
+ensemble,probability_predictions,weighted_average,"all model outputs",final_blend,best_system_in_archive_readme
+

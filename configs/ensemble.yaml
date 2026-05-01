@@ -1,0 +1,15 @@
+name: model1_model2_model3_weighted_blend
+description: Weighted average blend matching the original solution rationale.
+inputs:
+  - path: reports/results/model1_test.csv
+    weight: 0.50
+    note: Primary spectrogram model.
+  - path: reports/results/model2_test.csv
+    weight: 0.30
+    note: Raw EEG temporal model.
+  - path: reports/results/model3_test.csv
+    weight: 0.20
+    note: Official spectrogram auxiliary model.
+output:
+  path: reports/results/ensemble_submission.csv
+

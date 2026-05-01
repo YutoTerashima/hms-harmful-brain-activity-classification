@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Kaggle credentials and local secrets
+kaggle.json
+.env
+TOKEN.txt
+*.token
+
+# Competition data and heavy artifacts are intentionally not tracked.
+data/raw/
+data/interim/
+data/external/
+outputs/
+checkpoints/
+models/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.parquet
+*.npy
+*.npz
+
+# Keep curated, small processed artifacts.
+!data/processed/
+!data/processed/*.csv
+!data/processed/*.md
+

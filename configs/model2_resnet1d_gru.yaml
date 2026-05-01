@@ -1,0 +1,24 @@
+name: model2_resnet1d_gru
+description: Raw EEG ResNet1D-GRU model using bipolar montage waveform inputs.
+model:
+  name: resnet1d_gru
+  family: raw_eeg
+  in_channels: 16
+  num_classes: 6
+data:
+  train_csv: data/raw/train.csv
+  eeg_dir: data/raw/train_eegs
+  fold_column: fold
+train:
+  seed: 2024
+  epochs: 15
+  batch_size: 16
+  learning_rate: 0.0005
+  sample_rate: 200
+  seconds: 50
+  target_type: soft_votes
+output:
+  oof_path: reports/results/model2_oof.csv
+  test_path: reports/results/model2_test.csv
+  checkpoint_dir: checkpoints/model2
+
