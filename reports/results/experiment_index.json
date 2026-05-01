@@ -1,0 +1,39 @@
+{
+  "title": "HMS Harmful Brain Activity Classification",
+  "kind": "showcase_archive",
+  "dataset_path": "Kaggle HMS harmful brain activity classification metadata and archived notebooks; raw Kaggle data is intentionally excluded.",
+  "profile": "showcase",
+  "results": [
+    {
+      "experiment_id": "notebook_inventory",
+      "artifact_count": 10,
+      "coverage_score": 1.0,
+      "review_value": "original solution traceability"
+    },
+    {
+      "experiment_id": "package_structure",
+      "artifact_count": 15,
+      "coverage_score": 1.0,
+      "review_value": "importable reusable code"
+    },
+    {
+      "experiment_id": "test_surface",
+      "artifact_count": 3,
+      "coverage_score": 1.0,
+      "review_value": "smoke and integrity checks"
+    },
+    {
+      "experiment_id": "documentation",
+      "artifact_count": 6,
+      "coverage_score": 1.0,
+      "review_value": "reviewable written analysis"
+    }
+  ],
+  "artifacts": [
+    "reports/results/maturity_showcase_metrics.csv",
+    "reports/figures/maturity_artifact_counts.png",
+    "reports/figures/maturity_coverage_scores.png",
+    "reports/figures/maturity_review_surface.png"
+  ],
+  "discussion": "Showcase archive repositories use artifact coverage and documentation quality as the primary review signal."
+}

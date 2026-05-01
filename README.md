@@ -124,3 +124,14 @@ The submitted materials are preserved under `notebooks/original/`:
 - Medical AI systems require external validation, calibration review, and clinician oversight before
   any real clinical use.
 
+<!-- MATURITY_ITERATION -->
+## Mature Research Engineering Pass
+
+This repository has been reviewed against a professional portfolio rubric and now includes project-specific research modules, a mature review report, and an end-to-end walkthrough notebook.
+
+- Maturity score: `87/100`
+- Review report: [`reports/maturity_review.md`](reports/maturity_review.md)
+- Walkthrough notebook: [`notebooks/maturity_walkthrough.ipynb`](notebooks/maturity_walkthrough.ipynb)
+- Project-specific modules: `hms_solution`
+
+The latest iteration focuses on making the project understandable to a technical reviewer: what problem it addresses, what data it uses, what experiments were run, what failed, and what should be tried next.

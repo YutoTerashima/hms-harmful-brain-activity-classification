@@ -1,0 +1,5 @@
+experiment_id,artifact_count,coverage_score,review_value
+notebook_inventory,10,1.0,original solution traceability
+package_structure,15,1.0,importable reusable code
+test_surface,3,1.0,smoke and integrity checks
+documentation,6,1.0,reviewable written analysis
