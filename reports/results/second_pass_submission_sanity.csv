@@ -1,0 +1,3 @@
+artifact,rows,probability_sum_min,probability_sum_max,mean_entropy,mean_max_probability,public_prior_l1_distance,most_common_mean_class
+smoke_submission.csv,5,0.9999999999999993,0.9999999999999998,1.5032676345550717,0.4123695131378051,0.46420668941147536,gpd_probability
+smoke_ensemble_submission.csv,5,0.9999999999999996,0.9999999999999998,1.748099102186691,0.2359328002009339,0.0987832526469262,gpd_probability

@@ -1,0 +1,5 @@
+input_path,weight,normalized_weight,role_note,tracked_in_git,expected_artifact_type
+reports/results/model1_test.csv,0.5,0.5,Primary spectrogram model.,False,probability_csv
+reports/results/model2_test.csv,0.3,0.3,Raw EEG temporal model.,False,probability_csv
+reports/results/model3_test.csv,0.2,0.2,Official spectrogram auxiliary model.,False,probability_csv
+reports/results/ensemble_submission.csv,1.0,1.0,ensemble output target,False,submission_csv

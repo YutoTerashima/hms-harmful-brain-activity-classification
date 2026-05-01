@@ -101,6 +101,21 @@ competition context and synthetic smoke paths for code review.
 - [Experiment Summary](reports/experiment_summary.md)
 - [Data Card](reports/data_card.md)
 - [Reproduction Notes](reports/reproduction_notes.md)
+- [Second-Pass Solution Engineering Review](reports/second_pass_solution_engineering_review.md)
+
+## Second-Pass Review Evidence
+
+The latest maturity iteration adds computed review artifacts rather than more narrative-only packaging.
+
+| Review artifact | What it checks | Output |
+| --- | --- | --- |
+| Notebook archive metrics | 9 original notebooks, pipeline phase, imports, code cells, code lines, CV/inference signals | [`second_pass_notebook_archive_metrics.csv`](reports/results/second_pass_notebook_archive_metrics.csv) |
+| Submission sanity | Probability normalization, entropy, max-confidence, public-prior distance | [`second_pass_submission_sanity.csv`](reports/results/second_pass_submission_sanity.csv) |
+| Ensemble config audit | Blend weights, expected probability files, tracked-vs-regenerated artifacts | [`second_pass_ensemble_config_audit.csv`](reports/results/second_pass_ensemble_config_audit.csv) |
+| Reproduction readiness | Certificate, notebooks, configs, scripts, smoke outputs, tests, reports | [`second_pass_reproduction_readiness.csv`](reports/results/second_pass_reproduction_readiness.csv) |
+
+![Notebook phase footprint](reports/figures/second_pass_notebook_phase_footprint.png)
+![Submission sanity](reports/figures/second_pass_submission_sanity.png)
 
 ## Original Notebook Archive
 
@@ -129,7 +144,7 @@ The submitted materials are preserved under `notebooks/original/`:
 
 This repository has been reviewed against a professional portfolio rubric and now includes project-specific research modules, a mature review report, and an end-to-end walkthrough notebook.
 
-- Maturity score: `87/100`
+- Maturity score: `92/100`
 - Review report: [`reports/maturity_review.md`](reports/maturity_review.md)
 - Walkthrough notebook: [`notebooks/maturity_walkthrough.ipynb`](notebooks/maturity_walkthrough.ipynb)
 - Project-specific modules: `hms_solution`

@@ -1,0 +1,15 @@
+category,path,present,weight,weighted_score
+silver_certificate,assets/kaggle_certificate.png,True,1.0,1.0
+original_notebooks,notebooks/original,True,1.0,1.0
+three_model_configs,configs/model1_effnet_spectrogram.yaml,True,0.25,0.25
+three_model_configs,configs/model2_resnet1d_gru.yaml,True,0.25,0.25
+three_model_configs,configs/model3_effnet_official_spec.yaml,True,0.25,0.25
+ensemble_config,configs/ensemble.yaml,True,1.0,1.0
+download_script,scripts/download_data.py,True,1.0,1.0
+metadata_script,scripts/prepare_metadata.py,True,1.0,1.0
+train_entrypoints,scripts/train_model1.py,True,0.34,0.34
+train_entrypoints,scripts/train_model2.py,True,0.33,0.33
+train_entrypoints,scripts/train_model3.py,True,0.33,0.33
+smoke_submission,reports/results/smoke_submission.csv,True,1.0,1.0
+method_report,reports/method_report.md,True,1.0,1.0
+pytest_surface,tests,True,1.0,1.0

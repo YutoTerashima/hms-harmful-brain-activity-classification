@@ -1,0 +1,10 @@
+notebook,phase,file_size_kb,code_cells,markdown_cells,code_lines,markdown_lines,imports,has_training_loop,has_inference_path,has_cv_or_fold_logic
+model1/eeg_gen_spec.ipynb,spectrogram_generation,6749.74,11,3,113,31,librosa;matplotlib;pandas;pywt,True,False,False
+model1/infer.ipynb,inference,15.19,8,0,192,0,librosa;matplotlib;numpy;os;pandas;pathlib;pywt;timm;torch;torchvision;tqdm,False,True,False
+model1/train_eff0_stage1.ipynb,training_stage_1,580.05,34,7,220,17,matplotlib;numpy;os;pandas;pathlib;pickle;sklearn;timm;torch;torchvision;tqdm,True,False,True
+model1/train_eff0_stage2.ipynb,training_stage_2,830.51,44,7,240,17,matplotlib;numpy;os;pandas;pathlib;pickle;sklearn;timm;torch;torchvision;tqdm,True,False,True
+model2/hms-resnet1d-gru-infer.ipynb,inference,104.38,13,9,606,9,datetime;gc;glob;kaggle_kl_div;logging;math;matplotlib;numpy;os;pandas;pathlib;random;scipy;sys;time;torch;tqdm;typing;warnings,True,True,False
+model2/hms-resnet1d-gru-train.ipynb,raw_eeg_sequence_model,196.06,29,18,1403,18,datetime;gc;glob;kaggle_kl_div;logging;math;matplotlib;numpy;os;pandas;pathlib;random;scipy;sklearn;sys;time;torch;tqdm;typing;wandb;warnings,True,True,True
+model3/hms-eff1-train-stage1.ipynb,training_stage_1,30.27,5,4,171,4,IPython;gc;numpy;os;pandas;random;timm;torch;torchvision;warnings,True,False,True
+model3/hms-eff1-train-stage2.ipynb,training_stage_2,30.62,5,4,175,4,IPython;gc;numpy;os;pandas;random;timm;torch;torchvision;warnings,True,False,True
+model3/hms-infer.ipynb,inference,11.91,6,5,100,5,IPython;gc;numpy;os;pandas;random;timm;torch;torchvision;warnings,True,True,True

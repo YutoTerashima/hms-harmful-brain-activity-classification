@@ -27,13 +27,27 @@
       "artifact_count": 6,
       "coverage_score": 1.0,
       "review_value": "reviewable written analysis"
+    },
+    {
+      "experiment_id": "second_pass_archive_review",
+      "artifact_count": 8,
+      "coverage_score": 0.92,
+      "review_value": "notebook complexity, submission sanity, ensemble readiness, and reproducibility risk audit"
     }
   ],
   "artifacts": [
     "reports/results/maturity_showcase_metrics.csv",
     "reports/figures/maturity_artifact_counts.png",
     "reports/figures/maturity_coverage_scores.png",
-    "reports/figures/maturity_review_surface.png"
+    "reports/figures/maturity_review_surface.png",
+    "reports/results/second_pass_notebook_archive_metrics.csv",
+    "reports/results/second_pass_submission_sanity.csv",
+    "reports/results/second_pass_ensemble_config_audit.csv",
+    "reports/results/second_pass_reproduction_readiness.csv",
+    "reports/figures/second_pass_notebook_phase_footprint.png",
+    "reports/figures/second_pass_submission_sanity.png",
+    "reports/figures/second_pass_reproduction_readiness.png",
+    "reports/second_pass_solution_engineering_review.md"
   ],
-  "discussion": "Showcase archive repositories use artifact coverage and documentation quality as the primary review signal."
+  "discussion": "The second maturity pass adds computed archive-review evidence rather than only narrative packaging: notebook complexity, submission probability sanity, ensemble configuration readiness, and reproduction checks."
 }

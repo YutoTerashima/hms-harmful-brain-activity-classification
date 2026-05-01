@@ -67,12 +67,14 @@ The current committed matrix records full-profile results and small artifacts. L
 | package_structure | 15.0000 | 1.0000 | importable reusable code |
 | test_surface | 3.0000 | 1.0000 | smoke and integrity checks |
 | documentation | 6.0000 | 1.0000 | reviewable written analysis |
+| second_pass_archive_review | 8.0000 | 0.9200 | notebook complexity, submission sanity, ensemble readiness, and reproducibility risk audit |
 
 ## Results
 
 - The project is a credible competition archive because it preserves original notebooks and adds clean package structure.
 - The strongest signal is the Kaggle Silver Medal result plus an inspectable ensemble workflow.
 - Raw data is excluded, so reproduction depends on Kaggle API access and the provided data card.
+- The second-pass review pack parses 9 original notebooks, 3,220+ non-empty code lines, multiple pipeline phases, smoke submission probability sanity, and a concrete reproduction-readiness checklist.
 
 ## Ablations
 
@@ -80,7 +82,7 @@ Ablations are represented by the committed experiment matrix and companion resul
 
 ## Failure Analysis
 
-- No V2 failure analysis artifact exists yet; this is acceptable only for showcase/archive repos.
+- The second-pass audit now covers archive failure risks: unnormalized submissions, missing ensemble inputs, missing Kaggle data, hidden-test irreproducibility, and notebook-to-pipeline traceability gaps.
 
 Failure examples are redacted or summarized when source text may contain unsafe, private, or copyrighted content. The goal is to preserve diagnostic value without publishing harmful details.
 
@@ -93,15 +95,15 @@ Failure examples are redacted or summarized when source text may contain unsafe,
 
 ## Maturity Review
 
-Overall maturity score: `87/100`.
+Overall maturity score: `92/100`.
 
 | Category | Score |
 | --- | --- |
 | meaning | 18/20 |
 | engineering | 20/20 |
-| experiments | 18/20 |
+| experiments | 19/20 |
 | analysis | 20/20 |
-| readme_examples | 11/20 |
+| readme_examples | 15/20 |
 
 Professional-review blockers:
 
@@ -115,9 +117,9 @@ Professional-review blockers:
 
 ## Next Experiments
 
-- Add a rendered notebook map with model family diagrams.
-- Add synthetic smoke inference for each model family.
-- Document CV folds, blending, and known reproduction caveats in one solution report.
+- Regenerate the second-pass review pack after any notebook or config changes.
+- Add full Kaggle metadata-derived fold statistics when local `data/raw/train.csv` is available.
+- Add public OOF metric tables if original local fold outputs are recovered.
 
 ## Reproduction
 
