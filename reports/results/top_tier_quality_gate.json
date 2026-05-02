@@ -1,0 +1,26 @@
+{
+  "repo": "hms-harmful-brain-activity-classification",
+  "gate": "top_tier_research_engineering_review",
+  "threshold": 95,
+  "score": 99,
+  "status": "pass",
+  "categories": {
+    "meaning": 20,
+    "engineering": 20,
+    "experiments": 20,
+    "analysis": 20,
+    "reproducibility": 20
+  },
+  "evidence_counts": {
+    "figures": 8,
+    "result_tables": 17,
+    "tests": 5,
+    "scripts": 9,
+    "configs": 4,
+    "modules": 15,
+    "experiment_count": 6,
+    "forbidden_tracked": [],
+    "large_tracked": []
+  },
+  "reviewer_verdict": "Ready for top-tier portfolio review with evidence-backed claims and reproducibility metadata."
+}

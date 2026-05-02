@@ -33,6 +33,12 @@
       "artifact_count": 8,
       "coverage_score": 0.92,
       "review_value": "notebook complexity, submission sanity, ensemble readiness, and reproducibility risk audit"
+    },
+    {
+      "experiment_id": "top_tier_review_gate",
+      "artifact_count": 6,
+      "coverage_score": 1.0,
+      "review_value": "evidence-backed claims, artifact provenance, reproducibility manifest, and strict audit gate"
     }
   ],
   "artifacts": [
@@ -47,7 +53,13 @@
     "reports/figures/second_pass_notebook_phase_footprint.png",
     "reports/figures/second_pass_submission_sanity.png",
     "reports/figures/second_pass_reproduction_readiness.png",
-    "reports/second_pass_solution_engineering_review.md"
+    "reports/second_pass_solution_engineering_review.md",
+    "docs/top_tier_reviewer_packet.md",
+    "reports/results/claim_evidence_matrix.csv",
+    "reports/results/artifact_manifest.json",
+    "reports/results/reproducibility_manifest.json",
+    "reports/results/top_tier_quality_gate.json",
+    "reports/figures/top_tier_review_scores.png"
   ],
   "discussion": "The second maturity pass adds computed archive-review evidence rather than only narrative packaging: notebook complexity, submission probability sanity, ensemble configuration readiness, and reproduction checks."
 }

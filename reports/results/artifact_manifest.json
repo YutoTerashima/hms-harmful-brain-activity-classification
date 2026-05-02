@@ -1,0 +1,511 @@
+{
+  "repo": "hms-harmful-brain-activity-classification",
+  "generated_at_utc": "2026-05-02T07:25:24.235793+00:00",
+  "git_commit": "89242ac",
+  "artifacts": [
+    {
+      "path": "configs/ensemble.yaml",
+      "kind": "configuration",
+      "size_bytes": 481,
+      "sha256": "11b52abb3be947da350ed7172be37c97f0f92fefebe5f8587f9fe4a534ef8c95",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/model1_effnet_spectrogram.yaml",
+      "kind": "configuration",
+      "size_bytes": 648,
+      "sha256": "883c8dd688b9909a36eae00da441b302dda1152d6e09a07a21059075a6066390",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/model2_resnet1d_gru.yaml",
+      "kind": "configuration",
+      "size_bytes": 542,
+      "sha256": "2782ed8fa255c844aafe2dde5a4bf6bb97940ab219760412704ba7a0cddb5a86",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/model3_effnet_official_spec.yaml",
+      "kind": "configuration",
+      "size_bytes": 577,
+      "sha256": "4d80b0adfeee559e98a392111c6bccb6781ae00e0b2cee972952d3ce24938e7b",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "reports/figures/maturity_artifact_counts.png",
+      "kind": "figure",
+      "size_bytes": 61923,
+      "sha256": "4b93c6c2d0423f1f0a5c483b616b09f7d81a5361f5f96988ba61d88493d947ec",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/maturity_coverage_scores.png",
+      "kind": "figure",
+      "size_bytes": 69231,
+      "sha256": "0143e249ab681d33400bb6568367b681824b9fe34a6c4cbe32311bf55ba28ac4",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/maturity_review_surface.png",
+      "kind": "figure",
+      "size_bytes": 32519,
+      "sha256": "c437dcb99f3b5f98b2f16fbacd7ad95defb666357ed84db2b1f743e4ef415857",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/public_label_distribution.png",
+      "kind": "figure",
+      "size_bytes": 62754,
+      "sha256": "5f527dddf05659308e691e823390238f153bc4f573c763e7b77827011faa7980",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/second_pass_notebook_phase_footprint.png",
+      "kind": "figure",
+      "size_bytes": 54450,
+      "sha256": "73582d482328013f507a4fb4ddcef4a5c2eaf2e6ccb11cfadf210d47c1d118c6",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/second_pass_reproduction_readiness.png",
+      "kind": "figure",
+      "size_bytes": 71674,
+      "sha256": "aa17f03de6d04bfac94c51a0c83b861f6ef53898feb2ea4753d0871e8fe433bf",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/second_pass_submission_sanity.png",
+      "kind": "figure",
+      "size_bytes": 54909,
+      "sha256": "d35670bdba8292b668eff8a9b2d0766dbdf9752b691565dc5163e3fb939f1916",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/top_tier_review_scores.png",
+      "kind": "figure",
+      "size_bytes": 45978,
+      "sha256": "a9cf7ac4df97e2d2629668fa85e473d5db56e21ce83e87f2214486cca5996609",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/results/claim_evidence_matrix.csv",
+      "kind": "metric_table",
+      "size_bytes": 1484,
+      "sha256": "100bdd61d0b91418ce9885ce1246d744bf1e7a34745f826246a1533c68e481c2",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/maturity_showcase_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 263,
+      "sha256": "97b15e1d86f77a403e2a1a8dd268bb0d1e6ebc580182921291c2c7d27e6c3c60",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/model_family_summary.csv",
+      "kind": "metric_table",
+      "size_bytes": 765,
+      "sha256": "e9ef43ba97e010512281c9e7e42f324cbc8440697d5f5e3157b01873b3c254e1",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/public_development_class_counts.csv",
+      "kind": "metric_table",
+      "size_bytes": 156,
+      "sha256": "0f23478dff1ebf348f98b4b3c63d5fc6d94a2e4d727c5fb3375443ca0d4d54c4",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/second_pass_ensemble_config_audit.csv",
+      "kind": "metric_table",
+      "size_bytes": 456,
+      "sha256": "310305d44b0de54594ae58695851ca5e05a4299bb63526506d8d2b5a1b3d5cbc",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/second_pass_notebook_archive_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 1608,
+      "sha256": "b7956fa7f6d0348f16ec7948843d9d0fe54fa2b33f6249495ddcf7b88b50fa2b",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/second_pass_reproduction_readiness.csv",
+      "kind": "metric_table",
+      "size_bytes": 876,
+      "sha256": "de7e7069939aacebd636afb803382a8999f6a6fa547c477339319cfdc93542c7",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/second_pass_submission_sanity.csv",
+      "kind": "metric_table",
+      "size_bytes": 416,
+      "sha256": "fe8d4b091d4bf62aebd6ed896e6180bfc19d69262ab19fbad1544eaae656731e",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/smoke_ensemble_submission.csv",
+      "kind": "metric_table",
+      "size_bytes": 742,
+      "sha256": "52f13d291482a272947277174dc8624597829f7f8f54384593757091533a6db2",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/smoke_submission.csv",
+      "kind": "metric_table",
+      "size_bytes": 751,
+      "sha256": "074535e6a2758647d59e29d992cad6130c5a23e742353d0ed48906d12253087a",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "pyproject.toml",
+      "kind": "other",
+      "size_bytes": 875,
+      "sha256": "9dcb77201ef88047610d629f38e560bb9871e489e444716c0adf8688154f3f5b",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "README.md",
+      "kind": "report_or_docs",
+      "size_bytes": 8656,
+      "sha256": "e79efee98a3c851bd206dc8357a6994df76460b922d48ca3e21c7f5ed9151921",
+      "review_use": "first-screen reviewer orientation"
+    },
+    {
+      "path": "docs/original_archive_inventory.md",
+      "kind": "report_or_docs",
+      "size_bytes": 942,
+      "sha256": "a2f25442e4de547b390345d3358757a1002b5cb4ba0c3f7539a7ec96d077f5e4",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/top_tier_reviewer_packet.md",
+      "kind": "report_or_docs",
+      "size_bytes": 3559,
+      "sha256": "eaa1fbf6264ec3acb442251614ea58d7f1561cc62f7eb3577ebff613e2153852",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/data_card.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1705,
+      "sha256": "2c18ef38a612bb0de2d875d25ded1694f5c477d67b17d0cc5b6e0fea0e9d695e",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/experiment_summary.md",
+      "kind": "report_or_docs",
+      "size_bytes": 2769,
+      "sha256": "43018de646b7a226eba76eddb60a9307df2a0f4ac1a84cc9205d2abb82e79d93",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/hms_solution_showcase_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6701,
+      "sha256": "9db54ea3290bb7dd61469e38cd3e876884423de65595dcc1634cf74a81dac21f",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/maturity_review.md",
+      "kind": "report_or_docs",
+      "size_bytes": 7277,
+      "sha256": "71ff8b8c4278ec9591e80b16ee6315f0aa8321693cd6789fac8de54ba55283e7",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/method_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 3494,
+      "sha256": "2f15fa643e9866c188130ba688712370a25e65ed0d70f9082fa738e024fdd1c6",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/reproduction_notes.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1842,
+      "sha256": "f2d47d3ab4a2a4d972a4549e77b55eff0ddf1459e80f3c658b0921cbad0db47e",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/second_pass_solution_engineering_review.md",
+      "kind": "report_or_docs",
+      "size_bytes": 2927,
+      "sha256": "2bcf9308d32349297f85aae5771775431824e70294458d9f462992355e90c5e8",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "scripts/_bootstrap.py",
+      "kind": "source_or_test",
+      "size_bytes": 354,
+      "sha256": "1f9a3abb9010b0ed3c4e5af84e084f8173fb6675c813cedd4127e070ae121b06",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/blend_submissions.py",
+      "kind": "source_or_test",
+      "size_bytes": 1754,
+      "sha256": "f927183eac6fe5291b7695c3e4e7b52b2963779b8e1360825ac236deb9ccaa62",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/build_review_pack.py",
+      "kind": "source_or_test",
+      "size_bytes": 6754,
+      "sha256": "65d0506ebcc7c22cba9a17c90d3aa0058dab902395e8270b0bf10b3f72d2099c",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 1586,
+      "sha256": "884295f68d7af524c0e0aec895b1fe038ffccaeb37a3e5d527a70dbd10d0ea68",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/prepare_metadata.py",
+      "kind": "source_or_test",
+      "size_bytes": 1829,
+      "sha256": "a382b51c425425a2b33ffe5096440d7cd27ca46bbb6bad424354681b850e2218",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_inference.py",
+      "kind": "source_or_test",
+      "size_bytes": 1159,
+      "sha256": "c5f5b6db64a9c8f1809c4e4265c95221db6798cd84a454f8533bcbc823be9b22",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/train_model1.py",
+      "kind": "source_or_test",
+      "size_bytes": 1556,
+      "sha256": "b7fa74668ddc311cc216b57bfe6d5c6febca1f977f1b3ce9b9eb662642d4b92e",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/train_model2.py",
+      "kind": "source_or_test",
+      "size_bytes": 1539,
+      "sha256": "90d24a8541375b363d0b071bdd15a02d47685143eede318d8b7490cde3c84b17",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/train_model3.py",
+      "kind": "source_or_test",
+      "size_bytes": 1567,
+      "sha256": "80f0249f932e1ec3b9d235f1eb2abe8e122fcc2e57a0a43597b8aa928ed4128c",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "src/hms_solution/__init__.py",
+      "kind": "source_or_test",
+      "size_bytes": 268,
+      "sha256": "4aff52d3a75eda65c230030c7ecb4aeaa3ac8558eeb23feede3e011b54008894",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/config.py",
+      "kind": "source_or_test",
+      "size_bytes": 1115,
+      "sha256": "6ac37f3626f37d390e9a1bbf727f61b0462ac44b4c11b19d02f1bba8d9f4a125",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/constants.py",
+      "kind": "source_or_test",
+      "size_bytes": 852,
+      "sha256": "1c3a6f9085e379152902c9f55df3220dd4de3b3403f42beada00a554caea3aa8",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/cv_summary.py",
+      "kind": "source_or_test",
+      "size_bytes": 2534,
+      "sha256": "1fc753d344eab5af16da38f86c7802accbc88084d400cdd930b1ba982750a388",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/datasets.py",
+      "kind": "source_or_test",
+      "size_bytes": 2576,
+      "sha256": "08baa08e909bef68c5004d7cfba703e1466811e787817829a28013e066233c29",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/ensemble.py",
+      "kind": "source_or_test",
+      "size_bytes": 1660,
+      "sha256": "0da004e959205fb93a03f4b3048c37ff6b5701511ecf4d99b6ae77593d7eda86",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/inference.py",
+      "kind": "source_or_test",
+      "size_bytes": 1534,
+      "sha256": "b8a6abfe8577d2fe44d85788b89cda975ab6eaac28ca699ead9944e3164150b8",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/metrics.py",
+      "kind": "source_or_test",
+      "size_bytes": 1249,
+      "sha256": "2af82ee80ee4ab3c8f8fda21ce98f7a01e04275e468f86edfa4157cbe8250313",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/models.py",
+      "kind": "source_or_test",
+      "size_bytes": 3926,
+      "sha256": "0f79a277910fcd1c3899eb9c169acba568cc13cf70c239b9b27cf7d1c282a077",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/notebook_inventory.py",
+      "kind": "source_or_test",
+      "size_bytes": 2535,
+      "sha256": "0c61f589019438b210782ab3db9721678cc1533057f9818de0968637bf8e7044",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/preprocessing.py",
+      "kind": "source_or_test",
+      "size_bytes": 2941,
+      "sha256": "f1f2faccb3fee7a9bca63907162f062caffff00ecf053b2d732b7748fe40476a",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/reporting.py",
+      "kind": "source_or_test",
+      "size_bytes": 1225,
+      "sha256": "a560e23805f80d45f29c99bbbd824a8495f037a0c70c944957d017dbcd092e8b",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/research_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 1582,
+      "sha256": "17b2cf08cf3ff40569ecda44e6460180076ebec5a0c6e28deaa05aedf51e6703",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/review_pack.py",
+      "kind": "source_or_test",
+      "size_bytes": 8391,
+      "sha256": "6450a259b20738d739369be7ae2b07cb2f4c5869ac27836746ede86b528680c0",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/solution_map.py",
+      "kind": "source_or_test",
+      "size_bytes": 2574,
+      "sha256": "72180db765cc0084db966d8b09cfe12c457b02b9c6d8a11a0e69b3aa5e1f5f22",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/hms_solution/training.py",
+      "kind": "source_or_test",
+      "size_bytes": 2439,
+      "sha256": "03f9d84b4a319efc33bf3a43c9b5db4ffcda0fb9eb333ef767e58cb9c0adfff0",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "tests/conftest.py",
+      "kind": "source_or_test",
+      "size_bytes": 123,
+      "sha256": "0002b5341b19e442565f99ea21759c27046cf13b6c7f9def582f0f383471a5f5",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_maturity_assets.py",
+      "kind": "source_or_test",
+      "size_bytes": 917,
+      "sha256": "26132110dfb5c8451a47531131368ec1b64f80a8a480133132df3ef29f9f39d1",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_project_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 2875,
+      "sha256": "a22aa0c514005852c4845693ee3bd1d6d885388214e58006b8036c4df736830f",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_second_pass_review_pack.py",
+      "kind": "source_or_test",
+      "size_bytes": 1333,
+      "sha256": "a2d37554750071792f60857d2150504b6813643a82fec6145884ac37f9c9e22a",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_smoke_models.py",
+      "kind": "source_or_test",
+      "size_bytes": 958,
+      "sha256": "156dfe618e1793c27e592a00daaae73e9f36d747b945f5f61c6fecc814ac0a1b",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_top_tier_quality_gate.py",
+      "kind": "source_or_test",
+      "size_bytes": 1942,
+      "sha256": "ef892c5898daa21756e3ce7620a2d9d09023d7ecfc7f93b73cd086df91ff9859",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "reports/results/artifact_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 19036,
+      "sha256": "167bf0397970e562e63d9de279ca766d7a2b196b4680bd37eabef70e1dca4abb",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/experiment_index.json",
+      "kind": "structured_result",
+      "size_bytes": 2699,
+      "sha256": "f4a399af85aa3679d5424201b9d7f2843c06f36bff617e47050865c64388fc7b",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/model1_smoke_metrics.json",
+      "kind": "structured_result",
+      "size_bytes": 299,
+      "sha256": "2323ae025936dfa059d94282e648ef4db37b6eb4ae4ad36a6305046692470de3",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/model2_smoke_metrics.json",
+      "kind": "structured_result",
+      "size_bytes": 294,
+      "sha256": "6f54801b119f15fb38f441bc6913760d4357abc2bcf2ce9ac002584f945256f0",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/model3_smoke_metrics.json",
+      "kind": "structured_result",
+      "size_bytes": 301,
+      "sha256": "4d00aaf60835df37f6c1315a7f2cdb1ce8879b8f63abd5c395db83c2ac44158a",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/reproducibility_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 1432,
+      "sha256": "73c8af6a18da0fdb7e06f4e0765824ef88b18676b72460a8701e978a1c6e6091",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/top_tier_quality_gate.json",
+      "kind": "structured_result",
+      "size_bytes": 661,
+      "sha256": "8160094be85c6845efb7f3cc5d06c3a3db181362e42e2fabfa4a5e5c85d908e4",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "notebooks/maturity_walkthrough.ipynb",
+      "kind": "walkthrough_or_notebook",
+      "size_bytes": 2205,
+      "sha256": "1642e64c43ba6aaa60dfd7730ec892af06eb977fd8590313cbdeb9aeecae32ba",
+      "review_use": "walkthrough or original notebook evidence"
+    }
+  ]
+}

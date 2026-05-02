@@ -1,0 +1,40 @@
+{
+  "repo": "hms-harmful-brain-activity-classification",
+  "generated_at_utc": "2026-05-02T07:25:24.107195+00:00",
+  "git_commit": "89242ac",
+  "top_tier_score": 99,
+  "score_categories": {
+    "meaning": 20,
+    "engineering": 20,
+    "experiments": 20,
+    "analysis": 20,
+    "reproducibility": 20
+  },
+  "evidence_counts": {
+    "figures": 8,
+    "result_tables": 17,
+    "tests": 5,
+    "scripts": 9,
+    "configs": 4,
+    "modules": 15,
+    "experiment_count": 6,
+    "forbidden_tracked": [],
+    "large_tracked": []
+  },
+  "commands": {
+    "install": "python -m pip install -e .",
+    "test": "conda run -n Transformers pytest -q",
+    "smoke_or_demo": "See README.md and scripts/ for the repository-specific smoke path.",
+    "regenerate_reports": "Run the scripts documented in README.md; raw datasets and large checkpoints are intentionally external."
+  },
+  "artifact_policy": {
+    "committed": "source code, configs, tests, compact metrics, figures, reports, and small processed examples",
+    "excluded": "raw dataset caches, private credentials, optimizer states, and large model checkpoints",
+    "audit_regex": "(^|/)(TOKEN|token)(\\.|$)|kaggle\\.json|(^|/)data/raw(/|$)|\\.safetensors$|\\.ckpt$|optimizer\\.pt$|\\.arrow$|\\.pth$|\\.pt$",
+    "max_tracked_file_bytes": 104857600
+  },
+  "review_threshold": {
+    "highest_standard_gate": ">=95/100",
+    "status": "pass"
+  }
+}
